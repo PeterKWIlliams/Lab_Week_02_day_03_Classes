@@ -24,9 +24,7 @@ class TestCustomers(unittest.TestCase):
         
         self.assertEqual(self.customers.stomach[0],"guiness")
     
-    def test_customer_of_age(self):
-      
-      self.assertEqual(True,self.customers.check_age())
+    
 
     
     

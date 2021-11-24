@@ -13,12 +13,8 @@ class Customers:
     def give_drink(self,drink):
         
         self.stomach.append(drink)
-    def check_age(self):
-        if self.age  >= 18:
-           return True
-        else:
-            return False
-            
+    
+   
     
             
 
